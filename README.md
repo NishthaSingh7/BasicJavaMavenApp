@@ -3,6 +3,9 @@
 ## Project name
 Basic Java Maven App (`my-app`)
 
+## Year
+2023
+
 ## Purpose
 A simple Java Maven application used to practice building, testing, and delivering a Java app with Maven and Jenkins pipeline examples.
 
