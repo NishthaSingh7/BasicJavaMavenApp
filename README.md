@@ -1,15 +1,23 @@
-# simple-java-maven-app
+# BasicJavaMavenApp
 
-This repository is for the
-[Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
+## Project name
+Basic Java Maven App (`my-app`)
 
-The repository contains a simple Java application which outputs the string
-"Hello world!" and is accompanied by a couple of unit tests to check that the
-main application works as expected. The results of these tests are saved to a
-JUnit XML report.
+## Purpose
+A simple Java Maven application used to practice building, testing, and delivering a Java app with Maven and Jenkins pipeline examples.
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial and the `jenkins/scripts` subdirectory
-contains a shell script with commands that are executed when Jenkins processes
-the "Deliver" stage of your Pipeline.
+## Features
+- Prints a Hello World-style application entry point
+- Unit tests with JUnit Jupiter
+- Maven packaging into an executable JAR
+- Example Jenkins pipeline scripts for CI delivery stages
+- Enforced Maven and Java version constraints
+
+## Tech Stack used
+- Java 11+
+- Apache Maven
+- JUnit Jupiter
+- Jenkins (example Pipeline / scripts)
+
+## Project link
+Repository: https://github.com/NishthaSingh7/BasicJavaMavenApp
